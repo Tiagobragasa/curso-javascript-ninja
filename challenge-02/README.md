@@ -23,14 +23,15 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 function addvalor() {
-  return (y = "VALOR");
+  y = 25;
+  return "O valod da variavel agora é" + y;
 }
 
 // Invoque a função criada acima.
 addvalor();
 
 // Qual o retorno da função? (Use comentários de bloco).
-/*'VALOR'*/
+/*O valod da variavel agora é 25*/
 
 /*
 Crie uma função com as seguintes características:
@@ -42,7 +43,8 @@ Crie uma função com as seguintes características:
 function multiply(a, b, c) {
   if (a === undefined || b === undefined || c === undefined) {
     return "Preencha todos os valores corretamente!";
-  } else return a * b * c + 3;
+  }
+  return a * b * c + 2;
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
@@ -55,7 +57,7 @@ multiply(5, 3);
 multiply(5, 3, 6);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-93;
+92;
 
 /*
 Crie uma função com as seguintes características:
@@ -78,7 +80,8 @@ function sum(a, b, c) {
   }
   if (a === undefined && b === undefined && c === undefined) {
     return false;
-  } else return null;
+  }
+  return null;
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
